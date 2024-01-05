@@ -39,11 +39,11 @@ const helpItems: MenuItem[] = [
   },
   {
     label: "Docs",
-    url: "https://docs.potterdb.com/",
+    url: "https://google.com/",
   },
   {
     label: "Status",
-    url: "https://status.potterdb.com/",
+    url: "https://google.com/",
   },
 ];
 
