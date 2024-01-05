@@ -1,0 +1,34 @@
+{
+  "name": "potter-db-docs",
+  "version": "1.0.0",
+  "description": "Docs for Potter DB",
+  "private": "true",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build && npm run postbuild",
+    "postbuild": "next-sitemap",
+    "start": "next start -p 3002",
+    "lint": "next lint --fix . && prettier --write ."
+  },
+  "dependencies": {
+    "@types/node": "20.9.0",
+    "@types/react": "18.2.37",
+    "@types/swagger-ui-react": "4.18.3",
+    "eslint": "8.53.0",
+    "eslint-config-next": "13.5.6",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-mdx": "2.2.0",
+    "next": "13.5.6",
+    "next-sitemap": "4.2.3",
+    "nextra": "2.13.2",
+    "nextra-theme-docs": "2.13.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sharp": "0.32.6",
+    "swagger-ui-react": "5.9.3",
+    "typescript": "5.2.2"
+  },
+  "devDependencies": {
+    "prettier": "3.0.3"
+  }
+}

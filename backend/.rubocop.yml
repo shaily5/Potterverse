@@ -1,0 +1,52 @@
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-factory_bot
+  - rubocop-performance
+  # Re-add when improving graphql api
+  # - rubocop-graphql
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - "bin/**/*"
+    - "db/**/*"
+    - "config/**/*"
+    - "tmp/**/*"
+    - "lib/**/*"
+    - "vendor/bundle/**/*"
+
+Style/ConditionalAssignment:
+  Enabled: false
+Style/StringLiterals:
+  Enabled: false
+Style/RedundantReturn:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Style/WordArray:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Style/MutableConstant:
+  Enabled: false
+Style/SignalException:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
+Style/MissingRespondToMissing:
+  Enabled: false
+Lint/MissingSuper:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Layout/LineLength:
+  Max: 120
+Style/EmptyMethod:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/EmptyExampleGroup:
+  Enabled: false
